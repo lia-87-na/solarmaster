@@ -1,0 +1,59 @@
+#about {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    padding-top: 201px;
+    background: url(./../../logo/logo.png);
+    background-size: 50% 350px;
+    background-repeat: no-repeat;
+    background-position: top;
+
+
+    p {
+        text-align: justify;
+        margin: 30px 0;
+        line-height: 30px;
+        width: 100%;
+
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        margin: 60px 0 20px 0;
+        padding-top: 10px;
+    }
+
+    hr {
+        width: 25%;
+        border-color: rgb(60, 0, 150);
+        border-width: 2.5px;
+    }
+
+    span {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    h4 {
+        width: 100%;
+
+    }
+
+
+
+}
+@media screen and (max-width:425px) {
+    #about{
+        background-size: 100% 300px;
+    }
+}

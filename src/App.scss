@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+:root {
+  min-width: 300px;
+  scroll-behavior: smooth;
+}
+
+.arrowup {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 3px;
+  bottom: 3px;
+  border-radius: 50%;
+  backdrop-filter: blur(15px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 1px 1px grey;
+  cursor: pointer;
+background: linear-gradient(#2b93d5, #0068ab);
+  svg {
+   
+    font-size: 2.5vw;
+     font-weight: 200;
+      color: white;
+  }
+
+}

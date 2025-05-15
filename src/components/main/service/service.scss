@@ -1,0 +1,144 @@
+#service {
+    width: 80%;
+    margin: auto;
+    padding-top: 201px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 35px;
+    padding-bottom: 50px;
+
+    p {
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    h2,
+    h3 {
+        color: rgb(60, 0, 150);
+        width: 100%;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .service {
+        width: 100%;
+
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 80px;
+        flex-wrap: wrap;
+
+        .blocks {
+            width: calc(100% / 4);
+            min-width: 285px;
+            position: relative;
+            border-radius: 50px;
+
+            img {
+                width: 100%;
+                height: 350px;
+                border-radius: 30px;
+            }
+
+            h2 {
+                position: absolute;
+                top: 15px;
+                left: -24px;
+                right: 0;
+
+                width: 100%;
+                padding: 10px;
+                font-size: 1.3vw;
+                background: rgb(60, 0, 150);
+                border-radius: 18px;
+                color: #FFFFFF;
+                padding-left: 24px;
+
+            }
+
+            h4 {
+                color: #FFFFFF;
+                position: absolute;
+                top: 290px;
+                left: 0;
+                left: 0;
+                font-size: 3.5vw;
+                width: 100%;
+
+            }
+
+            p {
+                margin-top: 25px;
+                line-height: 25px;
+                word-spacing: 6px;
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    #service {
+
+
+        .service {
+
+
+            .blocks {
+                width: 80%;
+                position: relative;
+
+
+
+
+                h2 {
+
+                    font-size: 3vw;
+
+
+                }
+
+                h4 {
+                    font-size: 6vw;
+                }
+
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:425px) {
+    #service {
+
+
+        .service {
+
+
+            .blocks {
+                width: 100%;
+                min-width: 200px;
+                position: relative;
+
+
+
+                h2 {
+
+                    font-size: 4vw;
+                }
+
+                h4 {
+                    font-size: 8vw;
+                }
+
+            }
+        }
+    }
+}
