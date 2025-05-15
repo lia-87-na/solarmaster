@@ -21,12 +21,14 @@ export default function Header() {
 
             </nav>
 
-            <marquee behavior="normal" direction="left">
-                Եկեք լուսավորենք Ձեր Էներգետիկ ապագան:
+         
+                <div className="scrolling-text">
+      Եկեք լուսավորենք Ձեր Էներգետիկ ապագան:
                 Հեռ.` +374 91 300040 , +374 55 300040:
                 Հասցե` Պարույր Սևակ 9:
+  Բարի գալուստ մեր կայք
+</div>
 
-            </marquee>
         </header>
     )
 }
