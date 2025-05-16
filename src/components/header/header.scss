@@ -37,29 +37,39 @@ header {
         }
     }
 
-.scrolling-text {
-  white-space: nowrap;
-  overflow: hidden;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.scrolling-text::after {
-  content: attr(data-text);
-  display: inline-block;
-  padding-left: 100%;
-  animation: scroll 10s linear infinite;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
+  .scrolling-text {
+        width: 100%;
+        background: linear-gradient(#2b93d5, #0068ab);
+        overflow: hidden;
+        position: relative;
+        height: 40px;
+        background-color: #f0f0f0; // optionally add a background
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+            padding: 10px 0;
+            box-shadow: 0 0 5px 1px #FFFFFF;
+            margin-top: 10px;
+    }
+    
+    .scrolling-text-inner {
+        display: inline-block;
+        white-space: nowrap;
+        padding-left: 100%;
+        animation: scroll-left 15s linear infinite;
+        font-weight: bold;
+        color: #000; // adjust to fit design
+    }
+    
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(0%);
+        }
+    
+        100% {
+            transform: translateX(-100%);
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {

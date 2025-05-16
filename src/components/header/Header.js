@@ -22,12 +22,13 @@ export default function Header() {
             </nav>
 
          
-                <div className="scrolling-text">
-      Եկեք լուսավորենք Ձեր Էներգետիկ ապագան:
-                Հեռ.` +374 91 300040 , +374 55 300040:
-                Հասցե` Պարույր Սևակ 9:
-  Բարի գալուստ մեր կայք
+     <div className="scrolling-text">
+  <div className="scrolling-text-inner">
+    Եկեք լուսավորենք Ձեր Էներգետիկ ապագան: Հեռ.` +374 91 300040 , +374 55 300040:
+    Հասցե` Պարույր Սևակ 9: 
+  </div>
 </div>
+
 
         </header>
     )
